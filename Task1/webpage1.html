@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(223, 139, 139);
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: rgb(226, 188, 188);
+            padding: 10px;
+            position: sticky;
+            top: 0;
+
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li a {
+            color: #000;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        section {
+            background-color: rgb(222, 222, 213);
+            height: 700px;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        article {
+            background-color: antiquewhite;
+            height: 1000px;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        aside {
+            background-color: whitesmoke;
+            height: 700px;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        div {
+            background-color: rgb(243, 239, 236);
+            height: 700px;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        footer {
+            background-color: rgb(91, 84, 84);
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            padding: 10px;
+        }
+
+        iframe {
+            height: 200px;
+            width: 700px;
+            align-items: right;
+
+        }
+        .contact{
+            border: solid rgb(36, 229, 239) 2px;
+            text-decoration: none;
+            padding: 2px;
+            background-color: rgb(36, 229, 239);
+            border-radius: 10px;
+        }
+        .contact:hover{
+            background-color: aqua;
+        }
+        .continue{
+            text-decoration: none;
+            padding: 5px;
+            border: solid  rgb(240, 168, 12) 3px;
+            background-color: rgb(240, 168, 12) ;
+            border-radius: 20px;
+            height: 30px; 
+            width: 3%;
+        }
+        #img1{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: relative;
+            top: 0;
+            left: 10px;
+        }
+        #business{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        #img2{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1005px;
+            left: 300px;
+        }
+        #chromebook{
+            padding: 2px;
+            height: 130px;
+            width: 200px;
+        }
+        #img3{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1005px;
+            left: 600px;
+        }
+        #gaming{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        #img4{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 310px;
+            width: 230px;
+            position: absolute;
+            top: 1005px;
+            left: 900px;
+        }
+        #hp1{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        #img5{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1005px;
+            left: 1200px;
+        }
+        #netebook{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        #img6{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1400px;
+            left: 10px;
+        }
+        #rugged{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+         #img7{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1400px;
+            left: 300px;
+        }
+        #traditional{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        #img8{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1400px;
+            left: 600px;
+        }
+        #macbook{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        #img9{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1400px;
+            left: 900px;
+        }
+        #workstation{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+         #img10{
+            border: solid black 2px;
+            background-color: white;
+            border-radius: 2px;
+            height: 300px;
+            width: 230px;
+            position: absolute;
+            top: 1400px;
+            left: 1200px;
+        }
+        #ultrabook{
+            padding: 2px;
+            height: 150px;
+            width: 200px;
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">SHOP</span>LANE</h1>
+    </header>
+    <nav>
+        <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#Aboutus">About Us</a>
+            </li>
+            <li>
+                <a href="#Product">Product</a>
+            </li>
+            <li>
+                <a href="#ContactUs">Contact Us</a>
+            </li>
+            <li>
+                <a href="#BuyNow">Buy Now</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="Aboutus">
+        <h2>About Us ?</h2>
+        <img style="height: 600px ; width: 550px ; float: right ; padding-right: 10%; " src="images/lenvo.jpg" alt="">
+        <br><br><br>
+        <p style="text-align: left;">
+        <h2 style="font-size: x-large;"><i>Welcome to SHOPLANE 😊! Your One-Stop Shop for the Best Laptops!</i></h2>
+        <br><br>
+        <h3 style="line-height: 35px;  font-size: large;"> At <B><u>SHOPLANE</u></B>, <br>we believe that the right laptop can
+            change the way you work,<br> play, and create. That’s
+            why we’ve made it our mission to provide you with a curated <br> selection of the best laptops on the
+            market,<br>
+            combined with exceptional customer service. <br> Whether you're a gamer, a student, <br>a professional, or
+            simply <br>
+            someone looking for the perfect <br> personal laptop, we have something <br>for everyone.</p>
+        </h3>
+        
+    </section>
+    <article id="Product">
+        <h2>Product's</h2>
+        <br><br>
+        <div id="img1"  >
+           <a href="http://127.0.0.1:5500/webpage1.1.html">
+             <img id="business" src="images/business laptop" alt="" >
+           </a> 
+            <h2 style="text-align: center;">Business Laptop</h2><br>
+            <p>Price:57000$<br>color:Black<br>For : Business</p>
+        </div>
+        <div id="img2">
+            <a href="http://127.0.0.1:5500/webpage1.2.html">
+                <img id="chromebook" src="images/chromebook laptop.jpg" alt="">
+            </a>
+            <h2 style="text-align: center;">Chromebook  Laptop</h2><br>
+            <p>Price:57000$<br>color:Black<br>For : Business</p>
+        </div>
+        <div id="img3">
+            <a href="http://127.0.0.1:5500/webpage1.3.html">
+                 <img id="gaming" src="images/gaming laptop.png" alt="">
+            </a>
+            <h2 style="text-align: center;">Gaming  Laptop</h2><br>
+            <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <div id="img4">
+            <a href="http://127.0.0.1:5500/webpage1.4.html">
+                <img id="hp1" style="height: 200px;" src="images/hp1.jpg" alt="">
+            </a>
+             <h2 style="text-align: center;">hp1  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <div id="img5">
+            <a href="http://127.0.0.1:5500/webpage1.5.html">
+                <img id="netebook" src="images/netebook laptop" alt="">
+            </a>
+             <h2 style="text-align: center;">Netebook  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <br><br><br><br><br><br>
+        <div id="img6">
+            <a href="http://127.0.0.1:5500/webpage1.6.html">
+            <img id="rugged"  src="/images/rugged laptop.png" alt="">
+            </a>
+            <h2 style="text-align: center;">Rugged  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <div id="img7">
+            <a href="http://127.0.0.1:5500/webpage1.7.html">
+                <img id="traditional" src="/images/traditional laptop.jpg" alt="">
+            </a>
+            <h2 style="text-align: center;">Traditional  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <div id="img8">
+           <a href="http://127.0.0.1:5500/webpage1.8.html">
+             <img id="macbook" src="/images/macbooks.png" alt="">
+           </a>
+            <h2 style="text-align: center;">Macbook  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <div id="img9">
+            <a href="http://127.0.0.1:5500/webpage1.9.html">
+                <img id="workstation" src="/images/workstation laptop" alt="">
+            </a>
+             <h2 style="text-align: center;">Workstation  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+        <div id="img10">
+            <a href="http://127.0.0.1:5500/webpage1.10.html">
+                <img id="ultrabook" src="/images/ultrabook laptop" alt="">
+            </a>
+             <h2 style="text-align: center;">Ultrabook  Laptop</h2><br>
+             <p>Price:57000$<br>color:Black<br>For: Business</p>
+        </div>
+    </article>
+    <aside id="ContactUs">
+        <h2>Contact Us</h2>
+        <br><br>
+        <form id="contact" class="homepage-section" style="text-align: center;">
+            <!-- Form Start -->
+
+            <br>
+            <label for="">First Name:</label>
+            <input type="text" placeholder="First Name">
+            <br><br>
+            <label for="">Last Name:</label>
+            <input type="text" placeholder="Last Name">
+            <br><br>
+            <label for="">Phone:</label>
+            <input type="number" placeholder="Phone">
+            <br><br>
+            <label for="">Address:</label>
+            <input type="text">
+            <br><br>
+            <label for="">Email Id :</label>
+            <input type="number" placeholder="abc@123.com">
+            <br><br>
+            <label for="">Payment Type :</label>
+            <select name="" id="">
+                <option value="Select">select</option>
+                <option value="">Online</option>
+                <option value="">Cash</option>
+            </select>
+            <br><br>
+            <label for="">Gender : </label>
+            <label for="">Male</label>
+            <input name="Gender" type="radio">
+            <label for="">Female</label>
+            <input name="Gender" type="radio">
+            <br><br>
+            <input type="checkbox">
+            <label for="">Yes,I agree to contact with you</label>
+            <br><br>
+            <a class="contact" href="">📞Contact</a>
+
+        </form><br>
+        <!-- </form end> -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.4718284000237!2d75.91529059999999!3d17.6751574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5da62537b4ce1%3A0x4803bbf5d245e3af!2sIntellisoft%20Computer%20Consultants%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1749317446928!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+    <div id="BuyNow">
+        <h2>Buy Now !!</h2>
+        <br><br>
+        <h2 style="font-size: xx-large;">Sign-in or create account</h2>
+        <br>
+        <h3><b>Enter mobile number or Email</b></h3>
+        <br>
+        <input type="text" size="40px" style="height: 30px;border-radius: 5px; border: 1px solid #000;">
+        <br><br>
+            <a class="continue" href="">Continue</a>
+        <br><br>
+        <p>By Continuing , you agree to Shoplane's Conditions <br>of Use and Privacy Notice.
+        </p>
+        <br>
+        <p><b>Buying For work?</b></p>
+        <br>
+        <a href="">create a free business account</a>
+    </div>
+    <footer>
+        <h4>Copyright ⓒ 1995-2025 All Rights reserved.</h4><br>
+        <p>
+            Please dispose of e-waste and plastic waste responsibly. <br>
+            For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details. <br>
+
+            Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001 <br>
+            Corporate Identification Number (CIN): U31900DL1995PTC071387
+        </p>
+    </footer>
+
+</body>
+</html>
